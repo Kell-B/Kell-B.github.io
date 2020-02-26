@@ -1,0 +1,213 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, Helvetica Neue, sans-serif;
+	margin: 0px;
+	background-image: url("../../assets/images/White-Subtle-Texture01.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+section {
+	width: 960px;
+	height: 560px;
+	border: 1px solid #dddddd;
+	padding: 30px;
+	margin: auto;
+	margin-top: 195px;
+	background-color: #ffffff;
+}
+
+header.fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	border-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	text-align: left;
+	background: #ffffff;
+}
+
+h1 {
+	position: static;
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	text-align: center;
+	padding: 30px;
+	margin-top: 10px;
+	margin-left: 385px;
+	margin-bottom: 0px;
+	width: 250px;
+	height: 100px;
+}
+
+h2 {
+	color: #4aaaa5;
+	margin-bottom: 45px;
+}
+
+p {
+	letter-spacing: 2px;
+	line-height: 2.3;
+}
+
+.topnav {
+	width: 100%;
+	padding-top: 10px;
+	position: relative;
+	overflow: hidden;
+	color: #ffffff;
+	margin-right: 190px;
+	margin-bottom: 0px;
+}
+
+.topnav a {
+	position: static;
+	float: right;
+	color: #777777;
+	text-align: center;
+	margin-top: 60px;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+.topnav a:hover {
+	background-color: #ddd;
+	color: white;
+}
+
+img {
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex-shrink: 0;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 120px;
+	padding: 40px;
+	text-align: center;
+	background: #666666;
+	margin-top: 40px;
+	padding-top: 50px;
+	padding-bottom: 0px;
+	border-top: 8px solid #4aaaa5;
+	color: #ffffff;
+}
+
+h5 {
+	margin-bottom: 5px;
+}
+
+/*Contactsectioncss*/
+
+* {
+	box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text],
+select,
+textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #3c8581;
+}
+
+/* Style the container/contact section */
+.container {
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 0px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Portfolio css */
+
+div.gallery {
+	margin: 5px;
+	margin-bottom: 0px;
+	border: 1px solid #ccc;
+	float: left;
+	width: 180px;
+}
+
+div.gallery:hover {
+	border: 1px solid #777;
+}
+
+div.gallery img {
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	width: 178px;
+	height: 178px;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center;
+}
+
+.container {
+	position: relative;
+	font-family: Arial;
+}
+
+.text-block {
+	position: absolute;
+	width: 100%;
+	bottom: -130px;
+	background-color: #4aaaa5;
+	color: white;
+	margin-left: 0px;
+	text-align: center;
+}
